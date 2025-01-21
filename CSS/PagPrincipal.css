@@ -1,0 +1,48 @@
+@font-face {
+    font-family: tronos;
+    src: url(/Juego-de-Tronos/FUENTE/Game\ of\ Thrones.ttf);
+}
+.publiIZQ{
+    float: left;
+    
+   margin-top: 11%;
+    
+}
+.iframee{
+    height: 100vh;
+}
+
+.cabecera{
+    font-family: tronos;
+    color: gold;
+   background-color: black;
+    text-align: center;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    position: fixed;
+    width: 100%;
+}
+*{margin: 0;
+    padding: 0;}
+
+.infoCabecera{
+    font-size: 10px;
+    
+}
+
+
+    
+
+.publiDER{
+   
+}
+.iframeee{
+   margin-top: -550%;
+ margin-left: 84%;
+ height: 100vh;   
+    
+    
+
+}
