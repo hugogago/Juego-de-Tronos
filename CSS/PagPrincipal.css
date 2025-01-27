@@ -9,13 +9,13 @@
     
 }
 .iframee{
-    height: 100vh;
+    height: 350vh;
 }
 
 .cabecera{
     font-family: tronos;
     color: gold;
-   background-color: black;
+     background-color: black;
     text-align: center;
     height: 200px;
     display: grid;
@@ -23,9 +23,11 @@
     font-size: 50px;
     position: fixed;
     width: 100%;
+   
+    z-index: 2;
 }
-*{margin: 0;
-    padding: 0;}
+*{margin: 0%;
+    padding: 0%;}
 
 .infoCabecera{
     font-size: 10px;
@@ -38,12 +40,14 @@ body{
     
 
 .publiDER{
-   
+    
+    margin-left: 84%;
+    margin-right: 300px;
 }
 .iframeee{
-   margin-top: -550%;
- margin-left: 84%;
- height: 100vh;   
+    margin-top: 220px;
+    margin-left: 84%;
+    height: 350vh;   
     
     
 
@@ -53,7 +57,7 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
-    top: -1390px;
+    top: -3550px;
     height: 50px;
     
     
@@ -83,7 +87,7 @@ body{
    
     width: 50%;
     margin: auto;
-    margin-top: -1200px;
+    margin-top: -3500px;
     
     
 }
@@ -101,16 +105,23 @@ h1{
 img{
     margin-left: 35%;
 }
-.piePag{
-    position: absolute;
+
+
+footer{
     background:linear-gradient(black,white);
     color: gold;
     font-family: tronos;
     text-align: center;
     height: 200px;
-    display: grid;
+   /* display: grid;  */
     place-items: center;
     font-size: 50px;
-   
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+}
+.piepagina{
+   margin-top: 5%;
+   justify-content: center;
 }
