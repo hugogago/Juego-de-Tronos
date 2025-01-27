@@ -112,16 +112,18 @@ footer{
     color: gold;
     font-family: tronos;
     text-align: center;
-    height: 200px;
+    height: 100px;
    /* display: grid;  */
     place-items: center;
-    font-size: 50px;
+    font-size: 10px;
     width: 100%;
     position: fixed;
     bottom: 0;
+    opacity: 0.6;
     
 }
 .piepagina{
-   margin-top: 5%;
+   margin-top: 1%;
    justify-content: center;
+  
 }
