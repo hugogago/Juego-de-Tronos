@@ -67,6 +67,7 @@ body{
     position: absolute;
     width: 15%;
     overflow: auto;
+    top: 50px;
     
 }
 
@@ -80,7 +81,7 @@ body{
     text-decoration: none;
 }
 .contenidoMenu a:hover{
-    color: #FFFFFF;
+    color:  black;
     background-color: #00A4BD;
 }
 .Info{

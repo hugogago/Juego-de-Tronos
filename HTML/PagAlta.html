@@ -16,27 +16,34 @@
         </p>
     </div>
     <div class="estiloFormulario">
-        <form action="" method="post" class="formulario">
+        <form action="/Juego-de-Tronos/HTML/PagPrincipal.html" method="get" class="formulario">
             <label for="Nombre" >Nombre</label>
             <input type="text" required><br>
             <label for="Apellidos">Apellidos</label>
             <input type="text" required><br>
             <label for="DNI" >DNI</label>
-            <input type="text" required maxlength="9"><br>
+            <input type="text" required maxlength="9" pattern="\d{8}[A-Z]"><br>
             <label for="Dirección">Dirección</label>
-            <input type="text" required><br>
+            <input type="text" required pattern="C/[A-Za-z\s]+ Nº\d+ P[A-Z]"><br>
             <label for="Ciudad">Ciudad</label>
             <input type="text" required><br>
             <label for="Código postal">Código postal</label>
-            <input type="text" required><br>
+            <datalist id="CodigoPostal">
+                <option value="37184"></option>
+                <option value="37184"></option>
+                <option value="37184"></option>
+                <option value="37184"></option>
+                <option value="37184"></option>
+            </datalist>
+            <input type="text" required pattern="\d{5}" id="CodigoPostal"><br>
             <label for="País">País</label>
             <input type="text" required><br>
             <label for="Fecha de nacimiento">Fecha de nacimiento</label>
             <input type="date"><br>
             <label for="Email">Email</label>
-            <input type="email"><br>
+            <input type="email" placeholder="correo@correo.es"><br>
             <label for="Contraseña">Contraseña</label>
-            <input type="password" required maxlength="7"><br>
+            <input type="password" required  pattern="_[A-Za-z]{1,7}_[A-Za-z0-9]{5}\d{2}"><br>
             <label for="Sexo">Sexo:</label>
             <label for="hombre">Hombre</label>
             <input type="radio" name="sexo" id="hombre" value="1">
@@ -44,10 +51,11 @@
             <input type="radio" name="sexo" id="Mujer" value="2"><br>
             <label for="Aficiones">Aficiones</label>
             <input type="text" required><br>
-            <label for="Subir foto">Subir foto</label><br>
+            <label for="Subir foto">Subir foto de perfil</label>
+            <br>
             <input type="submit"  name="Enviar" value="Enviar">
             <input type="reset"  name="Borrar" value="Borrar">
-            <input type="button"  name="Cancelar" value="Cancelar" onclick="">
+            <input type="button"  name="Cancelar" value="Cancelar" onclick="location.href='/Juego-de-Tronos/HTML/PagPrincipal.html'">
            
 
 
