@@ -4,7 +4,7 @@
 }
 
 
-cabecera{
+.cabecera{
     font-family: tronos;
     color: gold;
      background-color: black;
@@ -58,6 +58,15 @@ body{
 .estiloFormulario{
     border: 2px solid white;
     width: 30%;
-    margin: auto;
-    margin-top: 150px;
+    
+    position: absolute;
+    top: 350px;
+    left: 35%;
+    
+}
+input{
+    float: right;
+}
+label{
+    float: left;
 }
