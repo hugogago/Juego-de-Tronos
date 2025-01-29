@@ -3,7 +3,12 @@
     src: url(/Juego-de-Tronos/FUENTE/Game\ of\ Thrones.ttf);
 }
 
-
+body{
+    background-image: url(/Juego-de-Tronos/FOTOS/lobo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 
 .cabecera{
@@ -44,6 +49,8 @@ footer{
    justify-content: center;
   
 }
+*{margin: 0%;
+    padding: 0%;}
 
 .noticia1{
     top: 20%;
@@ -53,4 +60,50 @@ footer{
     
     
     width: 30%;
+}
+.noticia2{
+    top: 40%;
+    
+    color: white;
+    position: absolute;
+    width: 50%;
+    left: 35%;
+    background-image: url(../FOTOS/la\ casa\ del\ dragón.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+.noticia3{
+    position: absolute;
+    top: 100%;
+    width: 40%;
+    background-image: url(../FOTOS/HD-wallpaper-game-of-thrones-house-targaryen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.noticia4{
+    position: absolute;
+    top: 100%;
+    width: 40%;
+    left: 50%;
+    background-color: white;
+    border-radius: 5%;
+    padding: 1%;
+}
+.noticia5{
+    position: absolute;
+    top: 110%;
+    padding: 10%;
+}
+.publi1{
+    top: 50%;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+}
+input{
+    position: absolute;
+    top: 155%;
+    left: 45%;
 }
