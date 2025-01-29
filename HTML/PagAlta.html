@@ -28,14 +28,14 @@
             <label for="Ciudad">Ciudad</label>
             <input type="text" required><br>
             <label for="Código postal">Código postal</label>
+            <input type="text" required pattern="\d{5}" list="CodigoPostal"><br>
             <datalist id="CodigoPostal">
                 <option value="37184"></option>
-                <option value="37184"></option>
-                <option value="37184"></option>
-                <option value="37184"></option>
-                <option value="37184"></option>
+                <option value="37003"></option>
+                <option value="37173"></option>
+                <option value="37930"></option>
+                <option value="37048"></option>
             </datalist>
-            <input type="text" required pattern="\d{5}" id="CodigoPostal"><br>
             <label for="País">País</label>
             <input type="text" required><br>
             <label for="Fecha de nacimiento">Fecha de nacimiento</label>
@@ -44,14 +44,22 @@
             <input type="email" placeholder="correo@correo.es"><br>
             <label for="Contraseña">Contraseña</label>
             <input type="password" required  pattern="_[A-Za-z]{1,7}_[A-Za-z0-9]{5}\d{2}"><br>
-            <label for="Sexo">Sexo:</label>
+            <label for="Sexo" id="sexo" class="sexo">Sexo:</label>
             <label for="hombre">Hombre</label>
             <input type="radio" name="sexo" id="hombre" value="1">
             <label for="Mujer">Mujer</label>
             <input type="radio" name="sexo" id="Mujer" value="2"><br>
             <label for="Aficiones">Aficiones</label>
-            <input type="text" required><br>
+            <input type="text" required list="Aficiones"><br>
+            <datalist id="Aficiones">
+                <option value="Pescar"></option>
+                <option value="Escalar"></option>
+                <option value="Cazar"></option>
+                <option value="Montar a caballo"></option>
+                <option value="Luchar"></option>
+            </datalist>
             <label for="Subir foto">Subir foto de perfil</label>
+            <input type="file" id="Subir foto" name="FotoPerfil">
             <br>
             <input type="submit"  name="Enviar" value="Enviar">
             <input type="reset"  name="Borrar" value="Borrar">

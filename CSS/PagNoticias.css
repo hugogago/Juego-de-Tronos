@@ -1,0 +1,56 @@
+@font-face {
+    font-family: tronos;
+    src: url(/Juego-de-Tronos/FUENTE/Game\ of\ Thrones.ttf);
+}
+
+
+
+
+.cabecera{
+    font-family: tronos;
+    color: gold;
+     background-color: black;
+    text-align: center;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    position: fixed;
+    width: 100%;
+   
+    z-index: 2;
+}
+.infoCabecera{
+    font-size: 10px;
+    
+}
+footer{
+    background:linear-gradient(black,white);
+    color: gold;
+    font-family: tronos;
+    text-align: center;
+    height: 100px;
+   /* display: grid;  */
+    place-items: center;
+    font-size: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.6;
+    
+}
+.piepagina{
+   margin-top: 1%;
+   justify-content: center;
+  
+}
+
+.noticia1{
+    top: 20%;
+    clear: both;
+    color: red;
+    position: absolute;
+    
+    
+    width: 30%;
+}
