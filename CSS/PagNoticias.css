@@ -93,8 +93,10 @@ footer{
 }
 .noticia5{
     position: absolute;
-    top: 110%;
+    top: 130%;
     padding: 10%;
+    width: 60%;
+    left: 25%;
 }
 .publi1{
     top: 50%;
@@ -104,6 +106,12 @@ footer{
 }
 input{
     position: absolute;
-    top: 155%;
+    top: 195%;
     left: 45%;
+}
+.publi2{
+    top: 150%;
+    position: absolute;
+    width: 30%;
+    height: 40%;
 }

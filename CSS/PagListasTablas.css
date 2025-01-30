@@ -1,0 +1,104 @@
+@font-face {
+    font-family: tronos;
+    src: url(/Juego-de-Tronos/FUENTE/Game\ of\ Thrones.ttf);
+}
+.cabecera{
+    font-family: tronos;
+    color: gold;
+     background-color: black;
+    text-align: center;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    position: fixed;
+    width: 100%;
+   
+    z-index: 2;
+}
+.infoCabecera{
+    font-size: 10px;
+    
+}
+footer{
+    background:linear-gradient(black,white);
+    color: gold;
+    font-family: tronos;
+    text-align: center;
+    height: 100px;
+   /* display: grid;  */
+    place-items: center;
+    font-size: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.6;
+    
+}
+.piepagina{
+   margin-top: 1%;
+   justify-content: center;
+  
+}
+*{margin: 0%;
+    padding: 0%;}
+
+.tabla{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    left: 15%;
+    background-color: white;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid gray;
+}
+th {
+    background-color: grey;
+    color: white;
+}
+
+.lista1{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    padding: 10%;
+}
+.lista2{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    padding: 10%;
+}
+body{
+    background-image: url(/Juego-de-Tronos/FOTOS/listas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@keyframes mover {
+    0% {transform: translateX(0);}
+    25%  {transform: translateX(-5px);}
+    50%  {transform: translateX(5px);}
+    75%  {transform: translateX(-5px);}
+    100%  {transform: translateX(0);}
+}
+li:hover {
+    animation: mover 0.3s ease-in-out;
+}
+input{
+    position: absolute;
+    top: 140%;
+    left: 45%;
+}
+
+
+tr:hover{
+    background-color:   aquamarine;
+    transition: background-color 0.3s ease-in-out;
+}
