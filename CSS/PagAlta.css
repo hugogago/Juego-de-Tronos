@@ -64,7 +64,7 @@ body{
     position: absolute;
     top: 350px;
     left: 40%;
-    
+    transition: transform 1s ease-in-out;
     
 }
 input {
@@ -78,6 +78,8 @@ input {
 form {
     display: inline;
     
-    
-   
+}
+
+.estiloFormulario:hover {
+    transform: rotateY(360deg);
 }

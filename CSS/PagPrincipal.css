@@ -2,6 +2,11 @@
     font-family: tronos;
     src: url(/Juego-de-Tronos/FUENTE/Game\ of\ Thrones.ttf);
 }
+@keyframes parpadeo{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
 .publiIZQ{
     float: left;
     
@@ -109,6 +114,7 @@ body{
 }
 h1{
     text-align: center;
+    animation: parpadeo 1s infinite;
 }
 img{
     margin-left: 35%;

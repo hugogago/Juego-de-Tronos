@@ -2,6 +2,14 @@
     font-family: tronos;
     src: url(/Juego-de-Tronos/FUENTE/Game\ of\ Thrones.ttf);
 }
+@keyframes brillo{
+    from{
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    }
+    to{
+        text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white;
+    }
+}
 
 body{
     background-image: url(/Juego-de-Tronos/FOTOS/lobo.jpg);
@@ -57,9 +65,9 @@ footer{
     clear: both;
     color: red;
     position: absolute;
-    
-    
     width: 30%;
+    text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
+    animation: brillo 1s ease-in-out infinite alternate;
 }
 .noticia2{
     top: 40%;
